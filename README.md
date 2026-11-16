@@ -15,11 +15,10 @@ Repositorio de utilidades reutilizables para tareas habituales de desarrollo. Su
 
 Antes de crear una nueva utilidad, consulta este catálogo para comprobar si ya existe una solución que puedas reutilizar o ampliar.
 
-Actualmente no hay utilidades publicadas. Al incorporar la primera, sustituye la fila informativa por una entrada con un enlace a su documentación.
-
 | Utilidad | Descripción | Lenguaje | Framework | Documentación |
 | --- | --- | --- | --- | --- |
-| — | Sin utilidades publicadas por el momento. | — | — | — |
+| DynamoDB: consulta por clave | Recupera registros de una tabla de DynamoDB filtrando por `pk` y, opcionalmente, por prefijo de `sk` con `boto3` y `Polars`. | Python | No aplica | [Ver script](./python/AWS/get_data_dynamodb.py) |
+| DynamoDB: actualización de item | Actualiza atributos de un elemento concreto en DynamoDB mediante una expresión `SET` con `boto3`. | Python | No aplica | [Ver script](./python/AWS/update_item_dynamodb.py) |
 
 ## Organización del repositorio
 
